@@ -1,0 +1,21 @@
+%A csoportszorzást és az inverzszámítást ellenõrzõ szkript.
+A=LAPOS();
+figure(1)
+subplot(1,2,1)
+A.lenti().bal().inv().Visual3(eye(3))
+title('LAPOS().lenti().bal().inv()')
+subplot(1,2,2)
+A.bal().lenti().Visual3(eye(3))
+title('LAPOS().bal().lenti()')
+pause
+figure(2)
+subplot(1,2,1)
+Visual3(A.lenti()*A.bal(),eye(3))
+title('LAPOS().lenti()*LAPOS().bal()')
+subplot(1,2,2)
+Visual3(A.bal().lenti(),eye(3))
+title('LAPOS().bal().lenti()')
+pause
+figure(3)
+Visual3(A.lenti().bal()*A.lenti().bal().inv(),eye(3))
+title('LAPOS().lenti().bal()*LAPOS().lenti().bal().inv()')

@@ -1,0 +1,5 @@
+Mátrixkocka
+A Rubik-kocka szimulációja.
+Méret: 3x3x1
+Fejlesztette: Koics Dániel
+A szoftvert ajánlom Balda Péter barátomnak.
