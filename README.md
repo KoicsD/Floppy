@@ -25,20 +25,27 @@ as [Neo (and the Architect)](https://www.youtube.com/watch?v=ZKpFFD7aX3c) can se
 
 What you can see in this repo:
 
-* a lot of .m files -- most of these are the structural parts of my software  
-  (Except from mtimesTestLAPOS.m which is to test LAPOS.m,  
-  the class-definition of Floppy's cube.)
-* a header .txt-file which is displayed by my program as a header in MATLAB-console
-* Timer.mat contains a function which can compute performance-related data at run-time  
-  This means that you get warning if you set too short time-limit for a too big task  
-  in solver (Yes, my software is able to solve Floppy's cube itself.)
-* In directory Documentation you can find a pdf-documentation  
+* TheCode
+  * a lot of structural .m files  
+    LAPOS.m is the class-definition of Floppy's cube  
+    MatrixKocka_3x3x1.m and Solver_3x3x1.m are the script files functioning as engine
+  * a header .txt-file which is displayed by my program as a header in MATLAB-console
+  * Timer.mat contains a function which can compute performance-related data at run-time  
+    This means that you get warning if you set too short time-limit for a too big task  
+    in solver (Yes, my software is able to solve Floppy's cube itself.)
+* Test  
+  Copy the file from this directory to TheCode and run it to see how LAPOS.m works
+* Documentation  
+  you can find a pdf-documentation  
   (unfortunately only in Hungarian -- I am planning to give a translation as an md-file)
-* SampleData contains sample saved games,  
-  on which you can try that my software can recognize invalid data or unsolveable cube
-* In Original you can find my original code written in C,  
-  during the fall semester of 2009 (the first semester I'd ever written program-code).
+* SampleData  
+  this directory contains sample save-files  on which you can try  
+  that my software can recognize invalid data or unsolveable cube
+* Original  
+  you can find my original code written in C, during the fall semester of 2009  
+  (the first semester I'd ever written program-code).
 
-To start game just activate main.m from your MATLAB environment.
+To start game just enter directory TheCode with your MATLAB environment
+and activate main.m.
 
 Thank you for checking out my repository!
