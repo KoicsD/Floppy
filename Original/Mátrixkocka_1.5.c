@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "econio.h"
 void rota(short forg[3][3], short hol[2][2][2]){
 	/*Felso harmad forgatoja.*/
 	int csere;
